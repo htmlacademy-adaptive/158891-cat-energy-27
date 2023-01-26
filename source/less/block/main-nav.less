@@ -1,0 +1,41 @@
+.main-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-nav__toggle {
+  height: 16px;
+  width: 24px;
+}
+
+//.main-nav__wrapper {
+  //display: none;}
+
+.main-nav__list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: @moble-width;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  min-height: 264px;
+}
+
+.main-nav__item {
+  display: flex;
+  padding: 22px 0 24px;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-nav__link {
+  font-family: @second-font;
+  margin: 0;
+  background-color: @color-bg-main;
+  color: @color-text-title-main;
+  font-weight: 500;
+  .text(20px, 20px);
+  text-transform: uppercase;
+
+}
