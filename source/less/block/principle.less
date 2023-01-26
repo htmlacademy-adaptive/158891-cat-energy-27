@@ -1,0 +1,36 @@
+.principle {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  margin-top: 20px;
+}
+
+.principle__title {
+  margin: 0;
+  font-family: @second-font;
+  .text(36px, 40px);
+  text-align: start;
+  font-weight: 400;
+  color: @color-text-title-main;
+}
+
+.principle__list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.principle__item{
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+  padding-left: 80px;
+  font-family: @main-font;
+  .text(14px, 18px);
+  text-align: start;
+  font-weight: 400;
+  color: @color-text-description;
+}

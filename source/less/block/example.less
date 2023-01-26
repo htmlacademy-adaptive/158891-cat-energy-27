@@ -1,0 +1,42 @@
+.example {
+  display: flex;
+  flex-direction: column;
+  padding: 25px 20px 40px;
+  background-color: @color-bg-second;
+}
+
+.example__title{
+  margin: 0;
+  font-family: @second-font;
+  .text(36px, 40px);
+  text-align: start;
+  font-weight: 400;
+  color: @color-text-title-main;
+}
+
+.example__description {
+  font-family: @main-font;
+  .text(14px, 18px);
+  text-align: start;
+  font-weight: 400;
+  color: @color-text-description;
+}
+
+.example__list {
+  display: flex;
+}
+
+.example__item {
+  display: flex;
+  flex-direction: column;
+}
+
+.example__food-costs {
+  margin: 0;
+  font-family: @second-font;
+  .text(14px, 20px);
+  text-align: center;
+  font-weight: 400;
+  color: @color-text-title-main;
+  text-transform: uppercase;
+}
